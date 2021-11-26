@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color: bisque;
+        }
+        h3{
+            font-family: 'Roboto Slab', serif;  
+        }
+    </style>
+</head>
+<body>
+    <h3>Q.Create an object ‘Person’ in Java Script,  which will have  ‘FirstName’, ’LastName’ and ‘Office Address’ as properties within it. Create three Persons and print all those three properties</h3>
+<script>
+    
+function Person(FirstName, LastName, Office_Address)
+   {
+     this.FirstName = FirstName;
+     this.LastName = LastName;
+     this.Office_Address = Office_Address;
+   }
+
+p1 = new Person("Safdar","Nazir","West Square");
+p2 = new Person("Ravi","Kumar","park street");
+p3 = new Person("Dilshad","Alam","Eastern Hill");
+console.log(p1);
+console.log(p2);
+console.log(p3);
+</script>
+</body>
+
+</html>
